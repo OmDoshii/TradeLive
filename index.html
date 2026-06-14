@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TradeLive — Trading Dashboard</title>
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0F2B5B">
+<link rel="manifest" href="manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="TradeLive">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=IBM+Plex+Sans:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="header-top">
+    <div class="logo">TradeLive<span>.</span></div>
+    <div class="header-right">
+      <span class="auto-pill">⟳ auto 5 min</span>
+      <span class="last-updated" id="lastUpdated"></span>
+      <button class="refresh-btn" id="refreshBtn">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg>
+        Refresh
+      </button>
+    </div>
+  </div>
+  <div class="tab-row" id="tabRow"></div>
+  <div class="filter-row" id="filterRow"></div>
+</header>
+
+<main class="main">
+  <div class="section-bar">
+    <span class="section-label" id="sectionLabel"></span>
+    <span class="unread-pill" id="unreadPill" hidden></span>
+  </div>
+  <div id="content"></div>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-sources">
+      Economic calendar from <a href="https://www.forexfactory.com" target="_blank" rel="noopener noreferrer">ForexFactory</a>
+      &nbsp;·&nbsp; News from <a href="https://www.fxstreet.com" target="_blank" rel="noopener noreferrer">FXStreet</a>
+      &nbsp;&amp;&nbsp; <a href="https://www.forexlive.com" target="_blank" rel="noopener noreferrer">ForexLive</a>
+    </div>
+    <div class="footer-mii">TradeLive</div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
