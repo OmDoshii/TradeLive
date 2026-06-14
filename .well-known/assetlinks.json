@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "app.vercel.trade_live_wine.twa",
+    "sha256_cert_fingerprints": ["09:2B:8D:08:D8:0E:26:3F:94:B4:0F:D3:F4:5C:49:DE:BF:20:E3:1D:6C:92:10:FA:F8:F5:03:69:54:EB:7B:1B"]
+  }
+}]

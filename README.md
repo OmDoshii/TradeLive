@@ -21,7 +21,7 @@ Real-time Forex news and economic calendar dashboard. No ads, no tracking.
 | Source | Feed | Notes |
 |--------|------|-------|
 | [ForexFactory](https://www.forexfactory.com) | `https://nfs.faireconomy.media/ff_calendar_thisweek.xml` | Current week only, no auth required |
-| [FXStreet](https://www.fxstreet.com) | `https://www.fxstreet.com/rss/news` | Forex analysis and news |
+| [ForexCrunch](https://www.forexcrunch.com) | `https://www.forexcrunch.com/feed/` | Forex analysis and news, no bot wall |
 | [ForexLive](https://www.forexlive.com) | `https://www.forexlive.com/feed/` | Breaking Forex news, high update frequency |
 
 > **Weekend note:** Forex markets close Friday ~5 PM ET and reopen Sunday ~5 PM ET. News feeds will show Friday's articles over the weekend — this is expected, not a bug.

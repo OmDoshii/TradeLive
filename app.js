@@ -1,8 +1,8 @@
 const PER_PAGE   = 8;
 const CURRENCIES = ['All','USD','EUR','GBP','JPY','CAD','AUD','NZD','CNY'];
 const IMPACTS    = ['All','High','Medium','Low'];
-const NEWS_CATS  = ['All','FXStreet','ForexLive'];
-const SOURCE_KEY = { FXStreet: 'fxstreet', ForexLive: 'forexlive' };
+const NEWS_CATS  = ['All','ForexCrunch','ForexLive'];
+const SOURCE_KEY = { ForexCrunch: 'forexcrunch', ForexLive: 'forexlive' };
 
 let allCalendar  = [];
 let allNews      = [];

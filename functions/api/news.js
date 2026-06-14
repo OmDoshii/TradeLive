@@ -4,11 +4,11 @@ const FF_URL    = 'https://nfs.faireconomy.media/ff_calendar_thisweek.xml';
 const CHROME_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36';
 
 const NEWS_FEEDS = [
-  { key: 'fxstreet',  label: 'FXStreet',  badgeClass: 'badge-fxstreet',  url: 'https://www.fxstreet.com/rss/news' },
-  { key: 'forexlive', label: 'ForexLive', badgeClass: 'badge-forexlive', url: 'https://www.forexlive.com/feed/' },
+  { key: 'forexcrunch', label: 'ForexCrunch', badgeClass: 'badge-forexcrunch', url: 'https://www.forexcrunch.com/feed/' },
+  { key: 'forexlive',   label: 'ForexLive',   badgeClass: 'badge-forexlive',   url: 'https://www.forexlive.com/feed/' },
 ];
 
-const VALID_BADGE_CLASSES = new Set(['badge-fxstreet', 'badge-forexlive']);
+const VALID_BADGE_CLASSES = new Set(['badge-forexcrunch', 'badge-forexlive']);
 const VALID_IMPACTS       = new Set(['High', 'Medium', 'Low', 'Holiday']);
 
 // Per-isolate rate limiting — resets on cold start

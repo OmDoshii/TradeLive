@@ -78,8 +78,8 @@ body { font-family: 'IBM Plex Sans', sans-serif; background: var(--bg); color: v
 .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 6px; margin-bottom: .55rem; }
 .badges { display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
 .badge { font-size: 10px; font-weight: 500; padding: 2px 7px; border-radius: 4px; }
-.badge-fxstreet  { background: #FFF8E1; color: #C45000; }
-.badge-forexlive { background: #E8F5E9; color: #1B5E20; }
+.badge-forexcrunch { background: #E3F2FD; color: #0D47A1; }
+.badge-forexlive   { background: #E8F5E9; color: #1B5E20; }
 .new-badge { display: flex; align-items: center; gap: 4px; font-size: 9px; font-weight: 600; background: var(--new-bg); color: var(--new-text); padding: 2px 7px; border-radius: 4px; white-space: nowrap; flex-shrink: 0; }
 .new-dot { width: 5px; height: 5px; background: var(--new-dot); border-radius: 50%; animation: pulse 1.5s ease-in-out infinite; }
 
